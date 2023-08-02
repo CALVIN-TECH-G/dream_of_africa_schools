@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item android:title="About us">
+            <menu>
+                <item
+                    android:id="@+id/nav_dna"
+                    android:icon="@drawable/baseline_water_drop_24"
+                    android:title="Our DNA" />
+                <item
+                    android:id="@+id/nav_vismis"
+                    android:icon="@drawable/baseline_visibility_24"
+                    android:title="Vision and Mission" />
+
+                <item
+                    android:id="@+id/nav_educ"
+                    android:icon="@drawable/baseline_home_24"
+                    android:title="Educational Models" />
+
+                <item
+                    android:id="@+id/nav_das"
+                    android:icon="@drawable/baseline_vignette_24"
+                    android:title="DAS UNIQUENESS" />
+
+                <item
+                    android:id="@+id/nav_anthems"
+                    android:icon="@drawable/anthems"
+                    android:title="Anthems" />
+            </menu>
+
+        </item>
+
+                <item android:title="People">
+                    <menu>
+                        <item
+                            android:id="@+id/nav_ceo"
+                            android:icon="@drawable/ceo"
+                            android:title="CEO" />
+                        <item
+                            android:id="@+id/nav_direct"
+                            android:icon="@drawable/tor"
+                            android:title="Director" />
+
+                        <item
+                            android:id="@+id/nav_orgstru"
+                            android:icon="@drawable/osstr"
+                            android:title="Organisation Structure" />
+
+
+                    </menu>
+
+                </item>
+
+
+
+    <item android:title="School Circulum">
+        <menu>
+            <item
+                android:id="@+id/nav_schcir"
+                android:icon="@drawable/shool"
+                android:title="School Circulum" />
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="Academics">
+            <menu>
+                <item
+                    android:id="@+id/nav_acaact"
+                    android:icon="@drawable/academ"
+                    android:title="Academic Activities" />
+                <item
+                    android:id="@+id/nav_coact"
+                    android:icon="@drawable/play"
+                    android:title="Co Cirucilar Activities" />
+
+                <item
+                    android:id="@+id/nav_reli"
+                    android:icon="@drawable/religion"
+                    android:title="Religion" />
+
+                <item
+                    android:id="@+id/nav_clubs"
+                    android:icon="@drawable/clubs"
+                    android:title="DAS Clubs" />
+
+                <item
+                    android:id="@+id/nav_ple"
+                    android:icon="@drawable/results"
+                    android:title="Ple results" />
+
+                <item
+                    android:id="@+id/nav_online"
+                    android:icon="@drawable/onlineschool"
+                    android:title="Online School" />
+            </menu>
+
+        </item>
+
+
+
+        <item android:title="Our School">
+            <menu>
+                <item
+                    android:id="@+id/nav_schools"
+                    android:icon="@drawable/shool"
+                    android:title="Schools" />
+                <item
+                    android:id="@+id/nav_board"
+                    android:icon="@drawable/hostel"
+                    android:title="Boading Facilities" />
+
+                <item
+                    android:id="@+id/nav_primary"
+                    android:icon="@drawable/preprimary"
+                    android:title="Pre Primary" />
+
+                <item
+                    android:id="@+id/nav_health"
+                    android:icon="@drawable/health"
+                    android:title="Health and Safety" />
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Admissions">
+            <menu>
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/adminis"
+                    android:title="ADMISSIONS" />
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Updates and evvents">
+            <menu>
+                <item
+                    android:id="@+id/nav_news"
+                    android:icon="@drawable/updates"
+                    android:title="News and Updates" />
+                <item
+                    android:id="@+id/nav_down"
+                    android:icon="@drawable/down"
+                    android:title="Important Downloads" />
+
+                <item
+                    android:id="@+id/nav_careerss"
+                    android:icon="@drawable/career"
+                    android:title="Careers" />
+
+
+            </menu>
+
+        </item>
+
+
+
+    </group>
+</menu>

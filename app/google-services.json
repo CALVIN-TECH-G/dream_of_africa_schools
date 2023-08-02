@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989291925518",
+    "project_id": "dream-africa-schools",
+    "storage_bucket": "dream-africa-schools.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989291925518:android:506d475fc371f7fc066c5f",
+        "android_client_info": {
+          "package_name": "com.example.kolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989291925518-16f5lkgv3oom31ikasbips7t63kjnbk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSAGnAfdV-gyT53cx62K7Zl9KqKJdv2zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989291925518-16f5lkgv3oom31ikasbips7t63kjnbk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

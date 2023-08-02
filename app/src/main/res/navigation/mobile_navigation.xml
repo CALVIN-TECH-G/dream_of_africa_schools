@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kolo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_dna"
+        android:name="com.example.kolo.our_dna"
+        android:label="Our Dna"
+        tools:layout="@layout/fragment_our_dna" />
+    <fragment
+        android:id="@+id/nav_vismis"
+        android:name="com.example.kolo.vission_mission"
+        android:label="Vission and Mission"
+        tools:layout="@layout/fragment_vission_mission" />
+
+    <fragment
+        android:id="@+id/nav_educ"
+        android:name="com.example.kolo.Educational"
+        android:label="Educational Models"
+        tools:layout="@layout/fragment_educational" />
+
+
+    <fragment
+        android:id="@+id/nav_das"
+        android:name="com.example.kolo.das"
+        android:label="DAS UNIQUENESS"
+        tools:layout="@layout/fragment_das" />
+
+
+
+    <fragment
+        android:id="@+id/nav_anthems"
+        android:name="com.example.kolo.anthems"
+        android:label="Anthems"
+        tools:layout="@layout/fragment_anthems" />
+
+    <fragment
+        android:id="@+id/nav_ceo"
+        android:name="com.example.kolo.ceo"
+        android:label="Chief Executive Officer"
+        tools:layout="@layout/fragment_ceo" />
+
+    <fragment
+        android:id="@+id/nav_direct"
+        android:name="com.example.kolo.director"
+        android:label="Director"
+        tools:layout="@layout/fragment_director" />
+
+
+    <fragment
+        android:id="@+id/nav_orgstru"
+        android:name="com.example.kolo.organisation"
+        android:label="Organisaton Structure"
+        tools:layout="@layout/fragment_organisation" />
+
+    <fragment
+        android:id="@+id/nav_schcir"
+        android:name="com.example.kolo.circulum"
+        android:label="School Circulum"
+        tools:layout="@layout/fragment_circulum" />
+
+    <fragment
+        android:id="@+id/nav_acaact"
+        android:name="com.example.kolo.academicact"
+        android:label="Academic Activities"
+        tools:layout="@layout/fragment_academicact" />
+    <fragment
+        android:id="@+id/nav_coact"
+        android:name="com.example.kolo.cociri"
+        android:label="Co Ciricular Activities"
+        tools:layout="@layout/fragment_cociri" />
+    <fragment
+        android:id="@+id/nav_reli"
+        android:name="com.example.kolo.religion"
+        android:label="Religion"
+        tools:layout="@layout/fragment_religion" />
+    <fragment
+        android:id="@+id/nav_clubs"
+        android:name="com.example.kolo.clubs"
+        android:label="DAS Clubs"
+        tools:layout="@layout/fragment_clubs" />
+    <fragment
+        android:id="@+id/nav_ple"
+        android:name="com.example.kolo.results"
+        android:label="Ple results"
+        tools:layout="@layout/fragment_results" />
+    <fragment
+        android:id="@+id/nav_online"
+        android:name="com.example.kolo.online"
+        android:label="Online School"
+        tools:layout="@layout/fragment_online" />
+
+    <fragment
+        android:id="@+id/nav_schools"
+        android:name="com.example.kolo.schools"
+        android:label="Schools"
+        tools:layout="@layout/fragment_schools" />
+    <fragment
+        android:id="@+id/nav_board"
+        android:name="com.example.kolo.boading"
+        android:label="Boading Facilities"
+        tools:layout="@layout/fragment_boading" />
+    <fragment
+        android:id="@+id/nav_primary"
+        android:name="com.example.kolo.preprimary"
+        android:label="Pre Primary"
+        tools:layout="@layout/fragment_preprimary" />
+    <fragment
+        android:id="@+id/nav_health"
+        android:name="com.example.kolo.health"
+        android:label="Health and Safety"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.example.kolo.admin"
+        android:label="Admissions"
+        tools:layout="@layout/fragment_admin" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.kolo.news"
+        android:label="News and Updates"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_down"
+        android:name="com.example.kolo.down"
+        android:label="Important Downloads"
+        tools:layout="@layout/fragment_down" />
+    <fragment
+        android:id="@+id/nav_careerss"
+        android:name="com.example.kolo.careers"
+        android:label="Careers"
+        tools:layout="@layout/fragment_careers" />
+
+
+</navigation>
